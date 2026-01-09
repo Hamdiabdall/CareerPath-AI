@@ -256,4 +256,40 @@ POST /ai/analyze-match
 ### Success Response
 ```json
 {
-  "success": tr
+  "success": true,
+  "data": { ... }
+}
+```
+
+### Error Response
+```json
+{
+  "success": false,
+  "message": "Error message",
+  "code": "ERROR_CODE"
+}
+```
+
+---
+
+## Error Codes
+
+| Code | Description |
+|------|-------------|
+| `AUTH_INVALID_CREDENTIALS` | Invalid email or password |
+| `AUTH_INVALID_TOKEN` | Invalid or expired token |
+| `AUTH_NOT_VERIFIED` | Email not verified |
+| `VALIDATION_ERROR` | Request validation failed |
+| `NOT_FOUND` | Resource not found |
+| `FORBIDDEN` | Access denied |
+| `DUPLICATE_APPLICATION` | Already applied to this job |
+
+---
+
+## Test Accounts
+
+| Role | Email | Password |
+|------|-------|----------|
+| Admin | admin@careerpath.tn | root123* |
+| Candidate | hamdi.abdallah@polytechnicien.tn | Test123! |
+| Recruiter | lce2iot@gmail.com | Test123! |
