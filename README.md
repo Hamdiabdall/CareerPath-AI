@@ -122,7 +122,7 @@ CareerPath AI/
 
 ## API
 
-Voir [API_DOCUMENTATION.md](./API_DOCUMENTATION.md) pour la documentation complète.
+Voir [api.md](./api.md) pour la documentation complète.
 
 ## Démarrage rapide
 
