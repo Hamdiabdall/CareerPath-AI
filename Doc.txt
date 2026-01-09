@@ -1,0 +1,11 @@
+frontend run :npm run dev 
+backend run : PORT=3006 node src/app.js
+
+Candidate: hamdi.abdallah@polytechnicien.tn / Test123!
+
+
+Recruiter: lce2iot@gmail.com / Test123!
+            mohamedamine.boussaid@polytechnicien.tn    / Test123!
+
+
+admin : admin@careerpath.tn  /  root123*
